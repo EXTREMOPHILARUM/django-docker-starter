@@ -37,7 +37,6 @@ test*.py
 # jupyter notebook
 *.ipynb
 
-# 此staticfiles為python manage.py collectstatic產生
 staticfiles
 images/
 
