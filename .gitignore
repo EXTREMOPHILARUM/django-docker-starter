@@ -1,0 +1,43 @@
+*.pyc
+__pycache
+.DS_Store
+# .env.dev
+# .env.prod
+# .env.prod.db
+.vscode
+
+*~
+~$*
+.*
+.*/
+*.pyc
+/env/*
+celerybeat-schedule
+dump.rdb
+!.gitignore
+/**/migrations/*.py
+!/**/migrations/__init__.py
+/**/*sqlite3.db
+dependencies/*
+text*.py
+test*.py
+
+**/*.db
+
+# log and upload file
+/**/log/*
+
+
+# testing file
+/**/test.*
+
+# test DB
+*.db-journal
+
+# jupyter notebook
+*.ipynb
+
+# 此staticfiles為python manage.py collectstatic產生
+staticfiles
+images/
+

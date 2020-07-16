@@ -1,0 +1,9 @@
+<div>Hello World ! I have been seen {{ count }} times.</div>
+{% if member_list %}
+<div>Member list:</div>
+	{% for this_member in member_list%}
+		<div>{{this_member.id}} - {{this_member.name}}</div>
+	{% endfor %}
+{% else %}
+<div>Do not have any members</div>
+{% endif %}
